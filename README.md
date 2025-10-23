@@ -1,4 +1,4 @@
-# Counter 0.1.0
+# Counter 0.1.1
 
 Count page views.
 <p align="center"><img src="SCREENSHOT.png" alt="Screenshot of the counter shortcut."></p>
@@ -24,6 +24,10 @@ You can simply open the defined `counterLogFile` in the `system/extensions/` (de
 **OR**
 
 use the shortcut `[counterStats]` on a page, to get a simple overview table.
+
+### Sort statistics
+If you use the `[counterStats]`-shortcut, you can sort the table columns by cllicking on the according column head.  
+This feature utilises the [simple table sorting](https://github.com/oleksavyshnivsky/tablesort) JavaScript and appends it right onto the page HTML.
 
 
 ## Settings
