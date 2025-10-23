@@ -30,7 +30,7 @@ class YellowCounter
 			$this->saveViewCounter($counterData);
 			$output = preg_replace("/@counter/i", $viewCount, $displayText);
 		}
-		if ($displayType == 'hidden') return null;
+		if ($displayType == 'hidden') return '';
 
 		if ($name == "counterStats" && ($type == "block" || $type == "inline")) {
 			$this->yellow->system->modified = time();
